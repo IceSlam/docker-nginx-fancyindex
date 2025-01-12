@@ -4,7 +4,6 @@ services:
     container_name: cinema_files
     build:
       dockerfile: Dockerfile
-    image: nginx-fancyindex
     ports:
       - "8180:80"
     volumes:
